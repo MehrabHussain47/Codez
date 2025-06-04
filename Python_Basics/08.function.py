@@ -17,8 +17,18 @@
 # greetings("Sakib")
 
 
+# def f(n):   # ei n holo ei function er local variable
+#     n = 10
+#     print(n)
+
+# n = 5
+# f(n)
+# print("n =", n)
+
+
 def greetings(name):
     print("Hello,", name)
 
 n = input("Enter a name: ")
 greetings(n)
+
