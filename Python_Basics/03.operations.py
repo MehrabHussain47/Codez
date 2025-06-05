@@ -10,7 +10,7 @@ a = 5.6
 b = 6
 print(a, b)
 c = a + b
-c = c *2
+c = c * 2
 print(c)
 
 n = 3.14159265358
