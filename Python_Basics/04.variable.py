@@ -1,6 +1,6 @@
 # we can store data in variable => like a cup
 # we can name a variable as a meaningful and use English words
-# we can not use digit to start a name of variable => 0num this will give error
+# we can not use digit to start a name of variable => 0num => this will give error
 
 # integer type
 num1 = 5 # value assign in a variable
