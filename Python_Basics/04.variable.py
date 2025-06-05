@@ -3,7 +3,7 @@
 # we can not use digit to start a name of variable => 0num => this will give error
 
 # integer type
-num1 = 5 # value assign in a variable
+num1 = 5 # value assign in a variable using assignment operator(=)
 print(num1, type(num1))
 num2 = 7
 print(num2, type(num2))
