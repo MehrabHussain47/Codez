@@ -1,3 +1,4 @@
+# Multiplication Table using function
 def print_multiplication_table(n):
     for i in range(1, 11):
         print(n, "x", i, "=", n * i)
@@ -7,12 +8,12 @@ n = int(n)
 print("Multiplication Table for", n, ":")
 print_multiplication_table(n)
 
-
-# n = input("Enter a number: ")
-# n = int(n)
-# print("Multiplication Table for", n, ":")
-# for i in range(1, 11):
-#     print(n, "x", i, "=", n * i)
+# Creating Multiplication Table
+n = input("Enter a number: ")
+n = int(n)
+print("Multiplication Table for", n, ":")
+for i in range(1, 11):
+    print(n, "x", i, "=", n * i)
 
 
 # print("5 x 1 = 5")
