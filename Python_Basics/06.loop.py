@@ -12,8 +12,8 @@
 
 # num = 100
 # for x in range(num):
-#     print(x)
+#     print(x, end=" ")
 
 # pattern
-for i in range(7):
-    print("*" * (i+1))
+for i in range(7):  # "*" * 5 => "*****"
+    print("*" * (i+1))  # this print will run exactly 7 times.
