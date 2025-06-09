@@ -23,3 +23,9 @@ print("\n")
 # pattern
 for i in range(7):  # "*" * 5 => "*****"
     print("*" * (i+1))  # this print will run exactly 7 times.
+
+# another way to print pattern using loop traditional way
+for i in range(1, 6, 1):
+    for j in range(0, i, 1):
+        print("*", end="")
+    print()
