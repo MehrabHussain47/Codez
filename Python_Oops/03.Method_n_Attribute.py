@@ -1,7 +1,7 @@
 import time
 
 class Car:
-    color = "White" # These 3 varibles are for default values.
+    # color = "White" # These 3 varibles are for default values.
     make = "Toyota"
     model = "Corolla"
     year = 2024
