@@ -18,6 +18,7 @@ for i in range(10, 0, -1):
 num = 100
 for x in range(num):
     print(x, end=" ")
+print("\n")
 
 # pattern
 for i in range(7):  # "*" * 5 => "*****"
