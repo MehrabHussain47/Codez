@@ -1,21 +1,24 @@
 import time
 
 class Car:
-    color = "White"
+    color = "White" # These 3 varibles are for default values.
     make = "Toyota"
     model = "Corolla"
+    year = 2024
 
-    def __init__(self, a, b, c="White", d=2024): # Constructor method
+    # This method's variables are used for user defined values.
+    def __init__(self, a, b, c="White"): # Constructor method
         print("Car is created!!!")  # object create korle ei method automatic call hoy
         self.make = a 
         self.model = b
         self.color = c
-        self.year = d
 
+    # Car er object print korle basic information print hobe naile object er address print hobe 
     def __str__(self):
         return(f"{self.color}-{self.make}-{self.model}-{self.year}")
     
-    def start_engine(self, t=1):
+    def start_engine(self, t=2):
+        self.year = 2025
         print("Starting engine...")
         time.sleep(t)
         print("Engine started! Ready to go!")
@@ -31,6 +34,8 @@ print(car1.color, car1.make, car1.model, car1.manufacture_year)
 print(car2.color, car2.make, car2.model, car2.year)
 print(car3)
 
+print("Before start engine", car1.year)
 car1.start_engine()
+print("After start engine", car1.year)
 car2.start_engine(0)
 car3.start_engine(5)

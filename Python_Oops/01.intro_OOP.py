@@ -14,6 +14,3 @@ print(li)
 
 x = 6
 print(dir(x))   # double underscore holo magic method/ dunder method
-
-
-
